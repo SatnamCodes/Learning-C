@@ -1,10 +1,9 @@
 # I am starting to document this journey in this markdown file.
-## As programmers usually do , i followed this tradition of writing hello world but this time in another language , C. # 🧠 My C Language Journey
-
+## My C Language Journey
 Welcome to my personal journey of mastering the **C Programming Language** — the legendary foundation of systems, OS kernels, and performance-critical computing.
 
 ---
-
+### As programmers usually do , i followed this tradition of writing hello world but this time in another language , C.  
 ## 📚 Journey Structure
 
 - `01_Basics/` – Intro to syntax, data types, I/O
