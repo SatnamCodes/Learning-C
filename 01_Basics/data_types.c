@@ -41,7 +41,7 @@ void modified_data_types(){
 
 }
 
-void derived_data_types{
+void derived_data_types(){
 
 }
 
