@@ -22,7 +22,7 @@ void enumerations_in_c();
 
 int main(){
     //Basic data types.
-    char character = "My name is Satnam."; //Characters.
+    char character[] = "My name is Satnam."; //Characters.
     int age = 10; //Integers without decimal points.
     float value_of_pi = 3.14; //Fractional values with 6-7 digits.)
     double lol_large_number = 123456789.987654321; //Fractional values with upto 15 digits.
@@ -37,6 +37,7 @@ int main(){
 
 void modified_data_types(){
     // Here are the modified data types in C.
+
 
 }
 
