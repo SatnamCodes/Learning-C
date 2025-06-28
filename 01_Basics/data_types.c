@@ -4,15 +4,21 @@
 #include <stdio.h> 
 //Basic data types in C
 
+// Data Type Examples
 void modified_data_types();
 void derived_data_types();
 void pointers_in_c();
+
+// Code Constructs
 void functions_in_c();
-void structures_in_c();
-void unions();
-void enumerations_in_c();
 void void_functions();
 void void_pointers();
+
+// User-defined Types
+void structures_in_c();
+void unions_in_c();
+void enumerations_in_c();
+
 
 int main(){
     //Basic data types.
