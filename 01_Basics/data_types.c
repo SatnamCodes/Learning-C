@@ -1,5 +1,5 @@
 // This file contains Data Types in C with examples and full codes written out.
-//All the variables must have a specifierd data type and we have to use a format specifier in order to tell the compiler about the data type we want to process and receive an output.
+//All the variables must have a specified data type and we have to use a format specifier in order to tell the compiler about the data type we want to process and receive an output.
 //Here is a code for different data types and format specifiers in C.
 #include <stdio.h> 
 //Basic data types in C
@@ -50,5 +50,5 @@ void pointers_in_c(){
 }
 
 void functions_in_c(){
-    
+
 }
