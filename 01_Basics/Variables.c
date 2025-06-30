@@ -28,7 +28,8 @@ void value_change() {
 
 void multiple_variables() {
     int x = 5, y = 6, z = 50;
-    printf("%d", x + y + z);
+    int sum = x+y+z;
+    printf("The sum is %d", sum);
     
 
 
