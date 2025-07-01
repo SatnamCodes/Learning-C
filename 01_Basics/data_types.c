@@ -21,17 +21,22 @@ void enumerations_in_c();
 
 
 int main(){
-    //Basic data types.
+    //Basic data types and the basic input.
     char character[] = "My name is Satnam."; //Characters.
     int age = 10; //Integers without decimal points.
     float value_of_pi = 3.14; //Fractional values with 6-7 digits.)
     double lol_large_number = 123456789.987654321; //Fractional values with upto 15 digits.
     short small_number = 5;
+    int num1 ,num2,num3; //Integers without decimal points.
     printf("Character: %s\n", character); //%s is a format specifier for strings.
     printf("I am %d years old.\n", age); //%d is a format specifier for integers.
     printf("The value of pi is %f\n", value_of_pi);//%f is the format specifier for floats.
     printf("Here is a large number %lf\n", lol_large_number); //%lf is the format specifier for doubles.
-    printf("Here is a small number %hd\n", small_number); //%hd is
+    printf("Here is a small number %hd\n", small_number); //%hd is 
+    printf("Enter three integers: ");
+    scanf("%d %d %d", &num1, &num2, &num3); //Taking input from the user.
+    printf("You entered: %d, %d, %d\n", num1, num2, num3); //Printing the integers entered by the user.
+    
 }   
 
 
