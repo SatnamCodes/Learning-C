@@ -6,17 +6,10 @@
  */
 
 #include <stdio.h>
+#include <func_c.h>
 
 // Function declarations.
-void modified_data_types();
-void derived_data_types();
-void pointers_in_c();
-void functions_in_c();
-void void_functions();
-void void_pointers();
-void structures_in_c();
-void unions_in_c();
-void enumerations_in_c();
+
 
 int main() {
     // Basic data types.
@@ -43,13 +36,32 @@ int main() {
     // Display user input and calculations
     printf("You entered: %d, %d, %d\n", num1, num2, num3);
     printf("The sum of the three integers is: %d\n", num1 + num2 + num3);
+    printf("\n");
+    modified_data_types();
+    derived_data_types();
+    pointers_in_c();
+    functions_in_c();
+    void_functions();
+    void_pointers();
+    structures_in_c();
+    unions_in_c();
+    enumerations_in_c();
     
-    return 0;
+    
 }
 
 // Modified data types (signed, unsigned, long, etc.)
 void modified_data_types() {
-    // Implementation for modified data types goes here
+    /*Data type modifiers are used to modify the length , range or the original size of a primitive data type*/
+    int a;
+    short int c; 
+    printf(" Size of the int is : %lu\n" , sizeof(a));
+    printf("Size of the short int data type is %lu\n", sizeof(c));
+    return 0;
+    
+    // A short modifier in C W works with the int data type and hence decreases its size to 2 bytes along with the range of values that the original data type can store.
+
+    /*An unsigned int cannot represent a negative value.*/
 }
 
 // Derived data types (arrays, pointers, functions)
@@ -67,14 +79,14 @@ void functions_in_c() {
     // Implementation for functions goes here
 }
 
-// Void functions demonstration
+// int functions demonstration
 void void_functions() {
-    // Implementation for void functions goes here
+    // Implementation for int functions goes here
 }
 
-// Void pointers demonstration
+// int pointers demonstration
 void void_pointers() {
-    // Implementation for void pointers goes here
+    // Implementation for int pointers goes here
 }
 
 // Structure concepts and examples
@@ -90,4 +102,6 @@ void unions_in_c() {
 // Enumeration concepts and examples
 void enumerations_in_c() {
     // Implementation for enumerations goes here
+
 }
+
