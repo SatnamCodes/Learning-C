@@ -6,8 +6,7 @@
  */
 
 #include <stdio.h>
-#include <func_c.h>
-
+#include "data_types.h"
 // Function declarations.
 
 
@@ -57,7 +56,6 @@ void modified_data_types() {
     short int c; 
     printf(" Size of the int is : %lu\n" , sizeof(a));
     printf("Size of the short int data type is %lu\n", sizeof(c));
-    return 0;
     
     // A short modifier in C W works with the int data type and hence decreases its size to 2 bytes along with the range of values that the original data type can store.
 
