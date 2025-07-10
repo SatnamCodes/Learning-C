@@ -57,7 +57,7 @@ void modified_data_types() {
     printf(" Size of the int is : %lu\n" , sizeof(a));
     printf("Size of the short int data type is %lu\n", sizeof(c));
     
-    // A short modifier in C W works with the int data type and hence decreases its size to 2 bytes along with the range of values that the original data type can store.
+    // A short modifier in C works with the int data type and hence decreases its size to 2 bytes along with the range of values that the original data type can store.
 
     /*An unsigned int cannot represent a negative value.*/
 }
