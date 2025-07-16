@@ -1,2 +1,3 @@
 **/*.exe
 01_Basics/Calculator.c
+.vscode/tasks.json
