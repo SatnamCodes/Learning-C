@@ -26,7 +26,7 @@ int main(){
             } else {
                 printf("Error! Division by zero.\n");
             }
-            break;
+            break; 
         default:
             printf("Error! Operator is not correct.\n");
     }
