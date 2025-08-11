@@ -15,4 +15,11 @@ printf("The first element of the array is :%d\n", myNumbers[0]); //Accesses the 
 myNumbers[0] = 35;
 printf("The first element of the array after the change is :%d\n",myNumbers[0]);
 
+
+// Loop through an array.
+
+int i = 0;
+for (i=0;i<4;i++){
+    printf("%d\n", myNumbers[i]);
+}
 }
