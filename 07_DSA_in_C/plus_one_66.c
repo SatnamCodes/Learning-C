@@ -7,3 +7,4 @@ for(int i=0;i<digitsSize;i++)
 printf("%d",digits[i]);
 }
 
+// This is a sample C code for the problem and below is the solution to the problem:
